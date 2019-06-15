@@ -1,0 +1,17 @@
+.navbar-brand-big {
+  display: none;
+}
+
+.navbar-brand-small {
+  display: block;
+}
+
+@media (min-width: 558px) {
+  .navbar-brand-big {
+    display: block;
+  }
+
+  .navbar-brand-small {
+    display: none;
+  }
+}
