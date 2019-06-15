@@ -13,7 +13,6 @@
   top: 50%;
   left: 80%;
   transform: translate(-50%, -50%);
-  height: 100%;
 }
 
 .desc-banner-bg::after {

@@ -1,0 +1,36 @@
+:root {
+  --gojek-green: #48af4a;
+  --gopay-blue: #0bb2ee;
+}
+
+.text-gojek {
+  color: var(--gojek-green);
+}
+
+.text-gopay {
+  color: var(--gopay-blue);
+}
+
+.btn-gojek {
+  background-color: var(--gojek-green);
+}
+
+.btn-gopay {
+  background-color: var(--gopay-blue);
+}
+
+.border-gojek {
+  border-color: var(--gojek-green);
+}
+
+.border-gopay {
+  border-color: var(--gopay-blue);
+}
+
+.bg-gojek {
+  background-color: var(--gojek-green);
+}
+
+.bg-gopay {
+  background-color: var(--gopay-blue);
+}

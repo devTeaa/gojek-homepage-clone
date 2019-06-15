@@ -13,3 +13,15 @@ a:hover {
   height: 3vw;
   min-height: 1.2rem;
 }
+
+.text-with-icon > i {
+  margin-left: 0.8rem;
+}
+
+.text-with-icon-left > i {
+  margin-right: 0.8rem;
+}
+
+.bg-transaparent {
+  background-color: transparent;
+}

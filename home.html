@@ -26,11 +26,24 @@
       href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"
     />
 
-    <link rel="stylesheet" href="assets/base-style.css" />
-    <link rel="stylesheet" href="assets/base-flex.css" />
-    <link rel="stylesheet" href="assets/base-desc-banner.css" />
-    <link rel="stylesheet" href="assets/base-gojek.css" />
-    <link rel="stylesheet" href="assets/base-navbar.css" />
+    <!-- Slick -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/base-style.css" />
+    <link rel="stylesheet" href="assets/css/base-flex.css" />
+    <link rel="stylesheet" href="assets/css/base-navbar.css" />
+    <link rel="stylesheet" href="assets/css/base-margin.css" />
+    <link rel="stylesheet" href="assets/css/base-padding.css" />
+    <link rel="stylesheet" href="assets/css/base-button.css" />
+
+    <link rel="stylesheet" href="assets/css/base-desc-banner.css" />
+    <link rel="stylesheet" href="assets/css/base-card.css" />
+    <link rel="stylesheet" href="assets/css/base-section.css" />
+
+    <link rel="stylesheet" href="assets/css/base-gojek.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -74,12 +87,12 @@
         </h2>
 
         <div class="banner-button">
-          <button type="button" class="btn btn-gojek">
-            <a href="#">
+          <button type="button" class="btn bg-gojek p-1">
+            <a href="#" class="text-with-icon">
               <span class="text-small">
                 LEARN MORE
               </span>
-              <span class="oi oi-arrow-right" title="arrow-right"></span>
+              <i class="fas fa-long-arrow-alt-right"></i>
             </a>
           </button>
         </div>
@@ -87,8 +100,407 @@
     </section>
     <!-- /Base Desc Banner -->
 
+    <!-- GO-JEK Service -->
+    <section class="base-section">
+      <!-- Section BG -->
+      <div class="section-bg-colored bg-gojek"></div>
+      <div class="section-bg-white"></div>
+
+      <!-- Section Title -->
+      <div class="section-title">
+        <span class="text-gojek">OUR SERVICES</span>
+      </div>
+
+      <!-- Section Logo -->
+      <div class="section-logo">
+        <div class="flex flex-align-center flex-justify-center">
+          <img src="https://bilba.go-jek.com/dist/img/gojek-logo.png" />
+        </div>
+      </div>
+
+      <!-- Slider button -->
+      <div class="slider-button-container" <div class="section-header">
+        <button
+          id="gojek-slider-prev"
+          class="btn btn-rounded border-gojek btn-slick-prev text-gojek bg-transparent"
+          type="button"
+        >
+          <i class="fas fa-arrow-left"></i>
+        </button>
+
+        <button
+          id="gojek-slider-next"
+          class="btn btn-rounded border-gojek btn-slick-next text-gojek bg-transparent"
+          type="button"
+        >
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+
+      <!-- Slider -->
+      <div id="gojekServiceSlider" class="base-card-slider">
+        <!-- GO-JEK Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/3f/86/3f869472f1ed3b420cfaa0cda9701c26.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/go-ride.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              More than 1 million drivers are ready to help you, you don't need
+              drive or find parking. Come on, download the GO-JEK application &
+              order online motorcycle taxi GO-RIDE now!
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- GO-CAR Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/GO-CAR_Desktop.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              Order GO-CAR through the GO-JEK application, a convenient &
+              reliable online taxi service. Hundreds of thousands of drivers in
+              Indonesia are ready to help you.
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- GO-FOOD Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/go-food.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              The number 1 online food delivery service application in Indonesia
+              with hundreds of thousands of restaurants registered. Order food
+              online 24 hours, delivery order now!
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- GO-SEND Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/GO-SEND_Desktop.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              An instant courier service that delivers goods and documents
+              quickly and easily, and with no distance limits in any delivery
+              area. Order your GO-SEND now!
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- GO-BOX Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/GO-BOX_Desktop.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              Order your GO-BOX to move or ship large cargo with
+              pick-up/single-axle/box/mobile box trucks.
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // GO-JEK Service -->
+
+    <!-- GO-PAY Service -->
+    <section class="base-section">
+      <!-- Section BG -->
+      <div class="section-bg-colored bg-gopay"></div>
+      <div class="section-bg-white"></div>
+
+      <!-- Section Title -->
+      <div class="section-title">
+        <span class="text-gopay">OUR SERVICES</span>
+      </div>
+
+      <!-- Section Logo -->
+      <div class="section-logo">
+        <div class="flex flex-align-center flex-justify-center">
+          <img
+            src="https://lelogama.go-jek.com/service_icon/GO-PAY_Desktop_fkkwMVo.svg"
+          />
+        </div>
+      </div>
+
+      <!-- Slider button -->
+      <div class="slider-button-container" <div class="section-header">
+        <button
+          class="btn btn-rounded border-gopay btn-slick-prev text-gopay bg-transparent"
+          type="button"
+        >
+          <i class="fas fa-arrow-left"></i>
+        </button>
+
+        <button
+          class="btn btn-rounded border-gopay btn-slick-next text-gopay bg-transparent"
+          type="button"
+        >
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+
+      <!-- Slider -->
+      <div id="gopayServiceSlider" class="base-card-slider">
+        <!-- GO-PAY Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/3f/86/3f869472f1ed3b420cfaa0cda9701c26.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/GO-PAY_Desktop.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              Top up your GOPAY balance to pay all transactions in GO-JEK app.
+              The best digital wallet with the best promos. See how to top up
+              GO-PAY here.
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gopay">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- GO-CAR Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/img_go_bills_topbar_title.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              Order GO-CAR through the GO-JEK application, a convenient &
+              reliable online taxi service. Hundreds of thousands of drivers in
+              Indonesia are ready to help you.
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gopay">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- GO-FOOD Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/go-food.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              The number 1 online food delivery service application in Indonesia
+              with hundreds of thousands of restaurants registered. Order food
+              online 24 hours, delivery order now!
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- GO-SEND Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/GO-SEND_Desktop.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              An instant courier service that delivers goods and documents
+              quickly and easily, and with no distance limits in any delivery
+              area. Order your GO-SEND now!
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- GO-BOX Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/GO-BOX_Desktop.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              Order your GO-BOX to move or ship large cargo with
+              pick-up/single-axle/box/mobile box trucks.
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // GO-PAY Service -->
+
+    <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Slick -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/5df5abbfbf.js"></script>
+
+    <!-- Base Script -->
+    <script src="assets/js/home.js"></script>
   </body>
 </html>

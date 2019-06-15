@@ -1,7 +1,0 @@
-:root {
-  --gojek-green: #48af4a;
-}
-
-.btn.btn-gojek {
-  background-color: var(--gojek-green);
-}

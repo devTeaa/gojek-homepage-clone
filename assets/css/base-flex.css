@@ -7,13 +7,21 @@
 }
 
 .flex-g-1 > *:not(:first-child) {
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
-.flex-as-column.flex-g-1 > *:not(:first-child) {
-  margin-right: 2rem;
+.flex-justify-center {
+  justify-content: center;
 }
 
 .flex-justify-end {
   justify-content: flex-end;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-align-end {
+  align-items: flex-end;
 }
