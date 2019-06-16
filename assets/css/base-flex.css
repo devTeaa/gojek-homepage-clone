@@ -25,3 +25,15 @@
 .flex-align-end {
   align-items: flex-end;
 }
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-5 {
+  flex: 5;
+}

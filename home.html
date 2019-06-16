@@ -40,8 +40,9 @@
     <link rel="stylesheet" href="assets/css/base-button.css" />
 
     <link rel="stylesheet" href="assets/css/base-desc-banner.css" />
-    <link rel="stylesheet" href="assets/css/base-card.css" />
     <link rel="stylesheet" href="assets/css/base-section.css" />
+    <link rel="stylesheet" href="assets/css/base-card.css" />
+    <link rel="stylesheet" href="assets/css/base-article-card.css" />
 
     <link rel="stylesheet" href="assets/css/base-gojek.css" />
   </head>
@@ -72,9 +73,7 @@
         />
       </div>
 
-      <div
-        class="desc-banner-text flex flex-as-column flex-g-1 flex-justify-end"
-      >
+      <div class="desc-banner-text flex-g-1">
         <h1 class="banner-text">
           <strong>
             KEBAIKAN TIDAK PERNAH SALAH, <br />
@@ -287,6 +286,64 @@
             </span>
           </div>
         </div>
+
+        <!-- GO-TIX Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/GO-TIX_Desktop.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              Order your GO-BOX to move or ship large cargo with
+              pick-up/single-axle/box/mobile box trucks.
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- GO-MED Card -->
+        <div class="base-card-container">
+          <div class="base-card">
+            <div class="base-card-header">
+              <div class="base-card-bg">
+                <img
+                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
+                />
+              </div>
+              <img
+                class="base-card-logo"
+                src="https://lelogama.go-jek.com/service_icon_text/GO-MED_Desktop.svg"
+              />
+            </div>
+
+            <p class="base-card-desc">
+              Order your GO-BOX to move or ship large cargo with
+              pick-up/single-axle/box/mobile box trucks.
+            </p>
+
+            <span class="base-card-footer">
+              <a href="#" class="text-with-icon text-gojek">
+                <span>READ MORE</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </section>
     <!-- // GO-JEK Service -->
@@ -314,6 +371,7 @@
       <!-- Slider button -->
       <div class="slider-button-container" <div class="section-header">
         <button
+          id="gopay-slider-prev"
           class="btn btn-rounded border-gopay btn-slick-prev text-gopay bg-transparent"
           type="button"
         >
@@ -321,6 +379,7 @@
         </button>
 
         <button
+          id="gopay-slider-next"
           class="btn btn-rounded border-gopay btn-slick-next text-gopay bg-transparent"
           type="button"
         >
@@ -360,7 +419,7 @@
           </div>
         </div>
 
-        <!-- GO-CAR Card -->
+        <!-- GO-BILL Card -->
         <div class="base-card-container">
           <div class="base-card">
             <div class="base-card-header">
@@ -390,7 +449,7 @@
           </div>
         </div>
 
-        <!-- GO-FOOD Card -->
+        <!-- GO-POINT Card -->
         <div class="base-card-container">
           <div class="base-card">
             <div class="base-card-header">
@@ -401,7 +460,7 @@
               </div>
               <img
                 class="base-card-logo"
-                src="https://lelogama.go-jek.com/service_icon_text/go-food.svg"
+                src="https://lelogama.go-jek.com/service_icon_text/GO-POINTS_Desktop.svg"
               />
             </div>
 
@@ -412,66 +471,7 @@
             </p>
 
             <span class="base-card-footer">
-              <a href="#" class="text-with-icon text-gojek">
-                <span>READ MORE</span>
-                <i class="fas fa-arrow-right"></i>
-              </a>
-            </span>
-          </div>
-        </div>
-
-        <!-- GO-SEND Card -->
-        <div class="base-card-container">
-          <div class="base-card">
-            <div class="base-card-header">
-              <div class="base-card-bg">
-                <img
-                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
-                />
-              </div>
-              <img
-                class="base-card-logo"
-                src="https://lelogama.go-jek.com/service_icon_text/GO-SEND_Desktop.svg"
-              />
-            </div>
-
-            <p class="base-card-desc">
-              An instant courier service that delivers goods and documents
-              quickly and easily, and with no distance limits in any delivery
-              area. Order your GO-SEND now!
-            </p>
-
-            <span class="base-card-footer">
-              <a href="#" class="text-with-icon text-gojek">
-                <span>READ MORE</span>
-                <i class="fas fa-arrow-right"></i>
-              </a>
-            </span>
-          </div>
-        </div>
-
-        <!-- GO-BOX Card -->
-        <div class="base-card-container">
-          <div class="base-card">
-            <div class="base-card-header">
-              <div class="base-card-bg">
-                <img
-                  src="https://lelogama.go-jek.com/cache/16/e6/16e6fd41f723d98c639f74ad25a782fd.jpg"
-                />
-              </div>
-              <img
-                class="base-card-logo"
-                src="https://lelogama.go-jek.com/service_icon_text/GO-BOX_Desktop.svg"
-              />
-            </div>
-
-            <p class="base-card-desc">
-              Order your GO-BOX to move or ship large cargo with
-              pick-up/single-axle/box/mobile box trucks.
-            </p>
-
-            <span class="base-card-footer">
-              <a href="#" class="text-with-icon text-gojek">
+              <a href="#" class="text-with-icon text-gopay">
                 <span>READ MORE</span>
                 <i class="fas fa-arrow-right"></i>
               </a>
@@ -481,6 +481,110 @@
       </div>
     </section>
     <!-- // GO-PAY Service -->
+
+    <!-- Article Feed -->
+    <section class="base-article">
+      <div class="flex-1 flex flex-align-center flex-justify-center">
+        <button
+          id="article-prev"
+          type="button"
+          class="btn btn-rounded border-white text-white bg-transparent"
+        >
+          <i class="fas fa-arrow-left"></i>
+        </button>
+      </div>
+
+      <div class="flex-5 article-slider-container">
+        <div id="articleSlider">
+          <div class="article-card">
+            <div class="article-card-text">
+              <h4>BERITA</h4>
+              <p>
+                Bengkel Belajar Mitra Beri Pelatihan Perawatan Otomotif Kepada
+                Mitra Driver
+              </p>
+            </div>
+
+            <a href="#" class="article-card-button btn text-gojek">
+              READ MORE
+            </a>
+
+            <div class="article-card-bg">
+              <img
+                src="https://lelogama.go-jek.com/post_thumbnail/bbm-thumbnail.png"
+              />
+            </div>
+          </div>
+
+          <div class="article-card">
+            <div class="article-card-text">
+              <h4>PROMO</h4>
+              <p>
+                Promo GO-PAY 2019: Cashback, Voucher, Diskon, Kode Kupon
+              </p>
+            </div>
+
+            <a href="#" class="article-card-button btn text-gojek">
+              READ MORE
+            </a>
+
+            <div class="article-card-bg">
+              <img
+                src="https://lelogama.go-jek.com/post_thumbnail/GO-PAY_OFFLINE_RAMADHAN_BLOG_THUMBNAIL.png"
+              />
+            </div>
+          </div>
+
+          <div class="article-card">
+            <div class="article-card-text">
+              <h4>BERITA</h4>
+              <p>Daftar Makanan Delivery 24 Jam Se-Indonesia! (Juni 2019)</p>
+            </div>
+
+            <a href="#" class="article-card-button btn text-gojek">
+              READ MORE
+            </a>
+
+            <div class="article-card-bg">
+              <img
+                src="https://lelogama.go-jek.com/post_thumbnail/pesan-makanan-online.png"
+              />
+            </div>
+          </div>
+
+          <div class="article-card">
+            <div class="article-card-text">
+              <h4>BERITA</h4>
+              <p>
+                Promo Codashop Juni 2019: Voucher Cashback 75% Kalau Top Up
+                Pakai GO-PAY
+              </p>
+            </div>
+
+            <a href="#" class="article-card-button btn text-gojek">
+              READ MORE
+            </a>
+
+            <div class="article-card-bg">
+              <img
+                src="https://lelogama.go-jek.com/post_thumbnail/Codashop-Cover.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-1 flex flex-align-center flex-justify-center">
+        <button
+          id="article-next"
+          type="button"
+          class="btn btn-rounded border-white text-white bg-transparent"
+        >
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+    <!-- // Article Feed -->
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

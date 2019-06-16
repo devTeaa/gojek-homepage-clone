@@ -1,0 +1,73 @@
+.base-article {
+  display: flex;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.base-article::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 20%;
+  left: 0;
+  background-color: var(--gojek-green);
+  z-index: -1;
+}
+
+.article-slider-container {
+  overflow: hidden;
+}
+
+.article-card-text {
+  letter-spacing: 2px;
+  background-color: #fafafa;
+  padding: 1.5rem;
+}
+
+.article-card-text > h4 {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.article-card-button {
+  display: block;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: #fafafa;
+  transition: 0.3s max-height;
+  line-height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .article-card-text > p {
+    font-size: 0.8rem;
+  }
+
+  .article-card-button {
+    font-size: 0.8rem;
+  }
+}
+
+.article-card.slick-current .article-card-button {
+  max-height: 1000px;
+  transition: 1.2s max-height;
+}
+
+.article-card-bg > img {
+  width: 100%;
+}
+
+/* Slick Modifier */
+.article-slider-container .slick-slide {
+  transform: scale(0.8);
+  transition: transform 0.2s ease-in-out;
+}
+
+.article-slider-container .slick-center {
+  transform: scale(1);
+}

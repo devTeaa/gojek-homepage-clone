@@ -11,6 +11,14 @@
   color: var(--gopay-blue);
 }
 
+.text-gopay {
+  color: var(--gopay-blue);
+}
+
+.text-white {
+  color: #fefefe;
+}
+
 .btn-gojek {
   background-color: var(--gojek-green);
 }
@@ -19,12 +27,20 @@
   background-color: var(--gopay-blue);
 }
 
+.btn-white {
+  background-color: #fefefe;
+}
+
 .border-gojek {
   border-color: var(--gojek-green);
 }
 
 .border-gopay {
   border-color: var(--gopay-blue);
+}
+
+.border-white {
+  border-color: #fefefe;
 }
 
 .bg-gojek {
