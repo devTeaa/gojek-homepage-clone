@@ -1,8 +1,11 @@
 :root {
   --gojek-green: #48af4a;
   --gopay-blue: #0bb2ee;
+  --gobox-brown: #a1652f;
+  --gobox-yellow: #fce500;
 }
 
+/* Text */
 .text-gojek {
   color: var(--gojek-green);
 }
@@ -15,10 +18,16 @@
   color: var(--gopay-blue);
 }
 
+.text-gobox {
+  color: var(--gobox-brown);
+}
+
 .text-white {
   color: #fefefe;
 }
+/* // Text */
 
+/* Button */
 .btn-gojek {
   background-color: var(--gojek-green);
 }
@@ -27,10 +36,16 @@
   background-color: var(--gopay-blue);
 }
 
+.btn-gobox {
+  background-color: var(--gobox-brown);
+}
+
 .btn-white {
   background-color: #fefefe;
 }
+/* // Button */
 
+/* Border */
 .border-gojek {
   border-color: var(--gojek-green);
 }
@@ -39,10 +54,16 @@
   border-color: var(--gopay-blue);
 }
 
+.border-gobox {
+  border-color: var(--gobox-brown);
+}
+
 .border-white {
   border-color: #fefefe;
 }
+/* // Border */
 
+/* Background */
 .bg-gojek {
   background-color: var(--gojek-green);
 }
@@ -50,3 +71,8 @@
 .bg-gopay {
   background-color: var(--gopay-blue);
 }
+
+.bg-gobox {
+  background-color: var(--gobox-brown);
+}
+/* // Background */

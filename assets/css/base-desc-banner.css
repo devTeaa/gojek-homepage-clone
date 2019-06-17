@@ -3,16 +3,41 @@
 }
 
 .desc-banner-bg {
-  height: 70vh;
   position: relative;
   overflow: hidden;
 }
 
-.desc-banner-bg > img {
+.gojek-banner-bg {
+  height: 70vh;
+}
+
+.gojek-banner-bg > img {
   position: absolute;
   top: 50%;
-  left: 80%;
+  left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.gobox-banner-bg {
+  height: 80vh;
+}
+
+.gobox-banner-bg > img {
+  position: absolute;
+  top: 50%;
+  right: -35%;
+  transform: translateY(-50%) scale(0.9);
+}
+
+@media (min-width: 768px) {
+  .gojek-banner-bg {
+    height: 60vh;
+  }
+
+  .gobox-banner-bg > img {
+    right: 0;
+    transform: translateY(-50%) scale(1);
+  }
 }
 
 .desc-banner-bg::after {
@@ -37,25 +62,48 @@
   padding-left: 1rem;
   display: flex;
   flex-direction: column;
+}
+
+.gojek-banner-text {
   justify-content: flex-end;
   align-items: center;
   text-align: center;
 }
 
+.gojek-banner-text > h2 {
+  font-size: 1.5rem;
+}
+
+.gojek-banner-text > h3 {
+  font-size: 1rem;
+}
+
+.gobox-banner-text {
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+.gobox-banner-text > h2 {
+  font-size: 2rem;
+}
+
+.gobox-banner-text > h3 {
+  font-size: 1.2rem;
+}
+
 @media (min-width: 768px) {
-  .desc-banner-text {
+  .gojek-banner-text {
     justify-content: center;
     align-items: flex-end;
     text-align: right;
   }
-}
 
-.banner-text {
-  font-size: 1.5rem;
-}
-
-.banner-sub-text {
-  font-size: 1rem;
+  .gobox-banner-text {
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+  }
 }
 
 @media (max-width: 768px) {
@@ -68,14 +116,4 @@
 }
 .banner-button button {
   font-size: 0.8rem !important;
-}
-
-@media (min-width: 768px) {
-  .desc-banner-bg {
-    height: 60vh;
-  }
-
-  .desc-banner-bg > img {
-    left: 50%;
-  }
 }

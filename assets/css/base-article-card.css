@@ -12,8 +12,15 @@
   right: 0;
   bottom: 20%;
   left: 0;
-  background-color: var(--gojek-green);
   z-index: -1;
+}
+
+.base-article-bg-gojek::before {
+  background-color: var(--gojek-green);
+}
+
+.base-article-bg-gobox::before {
+  background-color: var(--gobox-brown);
 }
 
 .article-slider-container {
@@ -58,8 +65,21 @@
   transition: 1.2s max-height;
 }
 
-.article-card-bg > img {
+.article-card-bg:not(.article-bg-cover) > img {
   width: 100%;
+}
+
+.article-bg-cover {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+
+.article-bg-cover > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Slick Modifier */
