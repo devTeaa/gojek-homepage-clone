@@ -18,8 +18,12 @@
   color: var(--gopay-blue);
 }
 
-.text-gobox {
+.text-gobox-brown {
   color: var(--gobox-brown);
+}
+
+.text-gobox-yellow {
+  color: var(--gobox-yellow);
 }
 
 .text-white {
@@ -36,8 +40,12 @@
   background-color: var(--gopay-blue);
 }
 
-.btn-gobox {
+.btn-gobox-brown {
   background-color: var(--gobox-brown);
+}
+
+.btn-gobox-yellow {
+  background-color: var(--gobox-yellow);
 }
 
 .btn-white {
@@ -54,8 +62,12 @@
   border-color: var(--gopay-blue);
 }
 
-.border-gobox {
+.border-gobox-brown {
   border-color: var(--gobox-brown);
+}
+
+.border-gobox-yellow {
+  border-color: var(--gobox-yellow);
 }
 
 .border-white {
@@ -72,7 +84,11 @@
   background-color: var(--gopay-blue);
 }
 
-.bg-gobox {
+.bg-gobox-brown {
   background-color: var(--gobox-brown);
+}
+
+.bg-gobox-yellow {
+  background-color: var(--gobox-yellow);
 }
 /* // Background */

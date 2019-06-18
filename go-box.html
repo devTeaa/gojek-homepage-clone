@@ -53,6 +53,7 @@
     <link rel="stylesheet" href="assets/css/base-article-card.css" />
     <link rel="stylesheet" href="assets/css/base-testimonial.css" />
     <link rel="stylesheet" href="assets/css/base-grid-desc.css" />
+    <link rel="stylesheet" href="assets/css/base-vertical-slider.css" />
     <link rel="stylesheet" href="assets/css/base-footer.css" />
 
     <link rel="stylesheet" href="assets/css/base-gojek.css" />
@@ -77,7 +78,7 @@
     <!-- /Navbar -->
 
     <!-- Base Desc Banner -->
-    <section class="base-desc-banner bg-gobox">
+    <section class="base-desc-banner bg-gobox-brown">
       <div class="desc-banner-bg gobox-banner-bg focus-right">
         <img
           class="fullwidth"
@@ -106,7 +107,7 @@
     <!-- /Base Desc Banner -->
 
     <!-- Article Feed -->
-    <section class="base-article base-article-bg-gobox">
+    <section class="base-article base-article bg-gobox-brown">
       <div class="flex-1 flex flex-align-center flex-justify-center">
         <button
           id="article-prev"
@@ -127,7 +128,7 @@
               </p>
             </div>
 
-            <a href="#" class="article-card-button btn text-gobox">
+            <a href="#" class="article-card-button btn text-gobox-brown">
               READ MORE
             </a>
 
@@ -146,7 +147,7 @@
               </p>
             </div>
 
-            <a href="#" class="article-card-button btn text-gobox">
+            <a href="#" class="article-card-button btn text-gobox-brown">
               READ MORE
             </a>
 
@@ -165,7 +166,7 @@
               </p>
             </div>
 
-            <a href="#" class="article-card-button btn text-gobox">
+            <a href="#" class="article-card-button btn text-gobox-brown">
               READ MORE
             </a>
 
@@ -184,7 +185,7 @@
               </p>
             </div>
 
-            <a href="#" class="article-card-button btn text-gobox">
+            <a href="#" class="article-card-button btn text-gobox-brown">
               READ MORE
             </a>
 
@@ -208,6 +209,77 @@
       </div>
     </section>
     <!-- // Article Feed -->
+
+    <!-- Vertical Slider -->
+    <section class="base-vertical-slider">
+      <div id="verticalSlider" class="vertical-slider-container">
+        <a class="vertical-item" href="#">
+          <picture>
+            <source
+              srcset="https://lelogama.go-jek.com/banner/GO-BOX_x_Bridestory_Desktop.jpg"
+              media="(min-width: 769px)"
+            />
+            <img
+              src="https://lelogama.go-jek.com/banner/GO-BOX_x_Bridestory_Mobile.jpg"
+            />
+          </picture>
+        </a>
+
+        <a class="vertical-item" href="#">
+          <picture>
+            <source
+              srcset="https://lelogama.go-jek.com/banner/gobox_x_BTN_materi_desain_Agustus_2017_web_banner_GO-BOX_alternatif_B.jpg"
+              media="(min-width: 769px)"
+            />
+            <img
+              src="https://lelogama.go-jek.com/banner/gobox_x_BTN_materi_desain_Agustus_2017_web_banner_mobile.jpg"
+            />
+          </picture>
+        </a>
+
+        <a class="vertical-item" href="#">
+          <picture>
+            <source
+              srcset="https://lelogama.go-jek.com/banner/Kirim_Barang_Besar.jpg"
+              media="(min-width: 769px)"
+            />
+            <img
+              src="https://lelogama.go-jek.com/banner/Kirim_Barang_Besar.jpg"
+            />
+          </picture>
+        </a>
+
+        <a class="vertical-item" href="#">
+          <picture>
+            <source
+              srcset="https://lelogama.go-jek.com/banner/bayar_pakai_gopay.jpeg"
+              media="(min-width: 769px)"
+            />
+            <img
+              src="https://lelogama.go-jek.com/banner/bayar_pakai_gopay.jpeg"
+            />
+          </picture>
+        </a>
+      </div>
+
+      <div class="vertical-button-container">
+        <button
+          id="vertical-slider-prev"
+          type="button"
+          class="btn btn-rounded bg-transaparent text-gobox-yellow border-gobox-yellow"
+        >
+          <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <button
+          id="vertical-slider-next"
+          type="button"
+          class="btn btn-rounded bg-transaparent text-gobox-yellow border-gobox-yellow"
+        >
+          <i class="fas fa-arrow-down"></i>
+        </button>
+      </div>
+    </section>
 
     <!-- Grid Desc -->
     <section class="base-grid-desc">

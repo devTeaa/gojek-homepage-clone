@@ -56,8 +56,7 @@ $(document).ready(function() {
       {
         breakpoint: 998,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToShow: 2
         }
       },
       {
@@ -92,5 +91,13 @@ $(document).ready(function() {
         }
       }
     ]
+  });
+
+  $('#verticalSlider').slick({
+    slidesToShow: 1,
+    vertical: true,
+    prevArrow: $(`#vertical-slider-prev`),
+    nextArrow: $(`#vertical-slider-next`),
+    infinite: false
   });
 });
